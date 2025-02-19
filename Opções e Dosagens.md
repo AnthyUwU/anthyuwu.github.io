@@ -35,7 +35,10 @@ A única marca que eu conheço de gel de estradiol no Brasil é:
 Opções para adesivos de estradiol:
 
 - Estradot
-- Systen
+
+Existem outras opções de adesivos que contém **[Acetato de Noretisterona](https://pt.wikipedia.org/wiki/Noretisterona)**, um contraceptivo que não é interessante para TH.
+Se você encontrar outras opções de adesivos, confira que eles não tem Noretisterona antes de comprar!
+
 ### Injetável
 
 Só há uma opção de medicamento injetável disponível nas farmácias brasileiras:
