@@ -62,4 +62,4 @@ Ao longo do guia, vou me esforçar para apresentar uma fonte para cada afirmaç�
 
 
 
-Próximo capítulo: [Opções e Dosagens](https://github.com/AnthyUwU/anthyuwu.github.io/blob/main/Op%C3%A7%C3%B5es%20e%20Dosagens.md#quais-s%C3%A3o-as-suas-op%C3%A7%C3%B5es-de-th-transfeminina-no-brasil)
+Próximo capítulo: [Opções e Dosagens](Op%C3%A7%C3%B5es%20e%20Dosagens.md)
