@@ -123,7 +123,7 @@ Consulte os [[Exames de sangue]] que você deve fazer se escolher a TH pela via 
 
 ### Aplicação do gel
  
- ![[Aplicacao_gel.png]]
+ ![Aplicacao_gel.png](Imagens/Aplicacao_gel.png)
 
 Assim como na imagem, aplique gel na parte externa dos braços ou na parte interna superior das coxas.
 
