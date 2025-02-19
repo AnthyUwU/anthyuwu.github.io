@@ -1,0 +1,191 @@
+
+# Quais são as suas opções de TH transfeminina no Brasil?
+
+
+**NENHUM dos medicamentos mencionados nessa lista necessitam de receita médica para serem comprados em qualquer farmácia.**
+
+## Medicamentos:
+___
+### Bloqueadores de Testosterona
+
+No brasil, temos duas opções de bloqueadores de testosterona (Antiandrógeno):
+
+- Acetato de Ciproterona
+- Espironolactona
+### Oral
+
+Alguns medicamentos disponíveis no Brasil para TH Oral:
+
+- Primogyna
+- Climene
+- Cicloprimogyna
+
+**Importante:**
+A Cicloprimogyna contém dois tipos de comprimidos diferentes: Brancos e Vermelhos (vinho).
+Os comprimidos vermelhos contém **[Levonorgestrel](https://pt.wikipedia.org/wiki/Levonorgestrel)**, que é um contraceptivo de emergência (Pílula do dia seguinte) muito forte para mulheres cis e não é interessante para TH.
+Se você decidir usar Cicloprimogyna, tome apenas os comprimidos brancos e jogue fora os vermelhos para evitar tomar medicações desnecessárias que podem ter efeitos colaterais negativos.
+
+### Transdermal (Gel)
+
+A única marca que eu conheço de gel de estradiol no Brasil é:
+
+- Oestrogel
+### Transdermal (Adesivos)
+
+Opções para adesivos de estradiol:
+
+- Estradot
+- Systen
+### Injetável
+
+Só há uma opção de medicamento injetável disponível nas farmácias brasileiras:
+
+- Enantato de Estradiol 10mg + Algestona Acetofenida 150mg
+
+Alguns nomes populares para essa mistura são:
+
+- Perlutan
+- Perlumes
+
+# Dosagens
+___
+
+De acordo com o SoC 8, os níveis ideais de Estradiol e Testosterona para os melhores resultados, sem correr riscos desnecessários são:
+
+- Estradiol: 100~200 pg/mL
+- Testosterona: <= 60 ng/dL
+(Não confunda as unidades de medida!)
+
+### Não existe medicamento que feminiza mais ou feminiza menos:
+
+Independente de qual é o medicamento que você usa, o objetivo é o mesmo: Deixar os níveis de Estradiol e Testosterona dentro desses intervalos.
+
+O processo de feminização é o seu corpo que faz. O estradiol é apenas a ferramenta que ele usa para isso. Lembre-se!
+
+
+### Referência:
+
+As dosagens listadas aqui são referenciadas de uma tabela do [Transfemscience](https://transfemscience.org/articles/e2-equivalent-doses/). Mais informações sobre esse site estarão no capítulo de referências.
+
+|                Rota                 |  Dose baixa   | Dose moderada  |   Dose Alta    | Dose muito alta |
+| :---------------------------------: | :-----------: | :------------: | :------------: | :-------------: |
+|                Oral                 |   2 mg/dia    |    4 mg/dia    |    8 mg/dia    |    12 mg/dia    |
+|               Adesivo               | 50~100 μg/dia | 100~200 μg/dia | 200~400 μg/dia | 300~600 μg/dia  |
+|                 Gel                 |  1.5 mg/dia   |    3 mg/dia    |    6 mg/dia    |    9 mg/dia     |
+|            Injeção I.M.             |  1 mg/semana  |  2 mg/semana   |  4 mg/semana   |   6 mg/semana   |
+|      Nível médio de estradiol       |   50 pg/mL    |   100 pg/mL    |   200 pg/mL    |    300 pg/mL    |
+| Fase equivalente do ciclo menstrual |   Folicular   | Ciclo inteiro  |     Lútea      |    Ovulação     |
+
+## Estradiol
+### Oral
+___
+- Entre 4mg e 8mg de estradiol por dia + Bloqueador de Testosterona.
+
+Comece com 4mg por dia. Faça exames de sangue após 3 meses de uso e faça o [[Reajuste de dose]] se necessário.
+
+Tome sempre no mesmo horário, todos os dias.
+
+Consulte os [[Exames de sangue]] que você deve fazer se escolher a TH pela via oral (Vomprimidos)
+### Adesivo
+___
+- Entre 100μg e 400μg por dia + Bloqueador de Testosterona.
+
+Consulte a embalagem e saiba quantos μg de estradiol o adesivo libera por dia.
+Se o adesivo liberar 50μg por dia, você vai precisar de 2 adesivos!
+
+Consulte a duração dos adesivos e não use por mais tempo do que recomenda a embalagem, pois não será efetivo.
+
+Comece com 100μg por dia. Faça exames de sangue após 3 meses de uso e faça o [[Reajuste de dose]] se necessário.
+
+Siga as instruções da embalagem ou da bula para aplicar o adesivo.
+
+Consulte os [[Exames de sangue]] que você deve fazer se escolher a TH pela via transdermal (Adesivos)
+### Gel
+___
+- Entre 3mg e 6mg por dia + Bloqueador de Testosterona.
+
+Consulte a embalagem e saiba quantos mg de estradiol cada pump contém.
+Numa calculadora, divida:
+
+Dose diária de estradiol   /   Estradiol por pump
+
+Se a embalagem indicar 0.6mg de estradiol por pump e você começar com uma dose de 3mg por dia, faça $$3 / 0.6 = 5$$
+No caso de uma dose de 3mg por dia e uma embalagem que solta 0.6mg por pump, você usará 5 pumps por dia. Aplique sempre no mesmo horário, todos os dias.
+
+Faça as contas de acordo com o que a embalagem que **você** comprou e ajuste.
+
+Comece com 3mg por dia. Faça exames de sangue após 3 meses de uso e faça o [[Reajuste de dose]] se necessário.
+
+Consulte os [[Exames de sangue]] que você deve fazer se escolher a TH pela via transdermal (Gel)
+
+### Aplicação do gel
+ 
+ ![[Aplicacao_gel.png]]
+
+Assim como na imagem, aplique gel na parte externa dos braços ou na parte interna superior das coxas.
+
+Se for mais cômodo, você pode espalhar o gel em dois ou mais locais de aplicação diferentes quando for usar.
+
+**Importante:** Você deve SEMPRE tomar banho antes de aplicar o gel e, se possível, depile a(s) área(s) de aplicação. Sujeira, impurezas, suor e pelos podem diminuir a absorção do gel pela sua pele.
+
+### Injeção IM (Intramuscular)
+___
+- 10mg a cada 14 dias;
+OU
+- 3mg a cada 7 dias.
+
+(Dosagens referentes à uma ampola com 10mg Enantato de estradiol + 150mg Algestona Acetofenida)
+
+A TH feita com injeções **NÃO** precisa de bloqueadores de Testosterona!
+A concentração de Estradiol que entra no corpo de uma vez só é alta o suficiente para que a sua produção natural de Testosterona quase pare, e seus níveis de Testosterona se reduzam para os mesmos níveis que buscamos nos outros métodos com uso de bloqueadores.
+
+**Não tome bloqueadores de testosterona se você fizer TH com medicamentos injetáveis.**
+
+Faça exames de sangue após 3 meses de uso e faça o [[Reajuste de dose]] se necessário.
+
+
+Para aprender como realizar a aplicação em si mesma, consulte o [[Manual de Aplicação]]!
+
+Consulte os [[Exames de sangue]] que você deve fazer se escolher a TH pela via injetável
+___
+
+## Bloqueadores de Testosterona (Antiandrógenos)
+
+### Espironolactona
+___
+
+- Entre 100mg e 200mg por dia.
+
+A Espironolactona é um bloqueador de testosterona fraco, por isso precisa de doses altas (100mg+) para bloqueá-la adequadamente.
+
+A Espironolactona é um diurético, ou seja, você terá vontade de urinar com muito mais frequência enquanto usar esse medicamento. Por isso, **nunca** esqueça de se manter hidratada todos os dias, várias vezes ao dia!
+
+Comece com 100mg por dia. Faça exames de sangue após 3 meses de uso e faça o [[Reajuste de dose]] se necessário.
+
+Consulte os [[Exames de sangue]] que você deve fazer se escolher tomar Espironolactona.
+
+### Acetato de Ciproterona
+___
+
+- 12.5mg por dia.
+
+A Ciproterona é um potente bloqueador de Testosterona que normalmente é usado para tratar câncer de próstata.
+
+A ciproterona é vendida apenas em comprimidos de 50mg. Por isso, será necessário comprar um cortador de comprimidos.
+Corte cada comprimido em 4 pedaços iguais (equivalendo 12.5mg cada).
+
+Tome 12.5mg por dia. Faça exames de sangue após 3 meses de uso e, se necessário, troque para Espironolactona.
+
+Consulte os [[Exames de sangue]] que você deve fazer se escolher tomar Acetato de Ciproterona.
+
+
+**Importante:**
+Ao contrário do que dizem muitos profissionais endocrinologistas, estudos publicados em 2021 comprovam que 12.5mg é o suficiente para bloquear a Testosterona de forma ideal em todas as pessoas.
+
+É muito comum que endocrinologistas (até mesmo os que se dizem "especialistas" em TH) recomendem doses altas de 25mg, 50mg ou até mesmo 100mg diárias de ciproterona para suas pacientes.
+
+Doses acima de 12.5mg não garantem maior eficácia no bloqueio de Testosterona, mas aumentam **significativamente** a gravidade e as chances de sofrer efeitos colaterais.
+
+Fonte: [Kuijpers et al., 2021](https://pubmed.ncbi.nlm.nih.gov/34125226/)
+
+___
