@@ -5,7 +5,7 @@
 **NENHUM dos medicamentos mencionados nessa lista necessitam de receita médica para serem comprados em qualquer farmácia.**
 
 ## Medicamentos:
-___
+
 ### Bloqueadores de Testosterona
 
 No brasil, temos duas opções de bloqueadores de testosterona (Antiandrógeno):
@@ -48,7 +48,7 @@ Alguns nomes populares para essa mistura são:
 - Perlumes
 
 # Dosagens
-___
+
 
 De acordo com o SoC 8, os níveis ideais de Estradiol e Testosterona para os melhores resultados, sem correr riscos desnecessários são:
 
@@ -78,7 +78,7 @@ As dosagens listadas aqui são referenciadas de uma tabela do [Transfemscience](
 
 ## Estradiol
 ### Oral
-___
+
 - Entre 4mg e 8mg de estradiol por dia + Bloqueador de Testosterona.
 
 Comece com 4mg por dia. Faça exames de sangue após 3 meses de uso e faça o [[Reajuste de dose]] se necessário.
@@ -87,7 +87,7 @@ Tome sempre no mesmo horário, todos os dias.
 
 Consulte os [[Exames de sangue]] que você deve fazer se escolher a TH pela via oral (Vomprimidos)
 ### Adesivo
-___
+
 - Entre 100μg e 400μg por dia + Bloqueador de Testosterona.
 
 Consulte a embalagem e saiba quantos μg de estradiol o adesivo libera por dia.
@@ -101,7 +101,7 @@ Siga as instruções da embalagem ou da bula para aplicar o adesivo.
 
 Consulte os [[Exames de sangue]] que você deve fazer se escolher a TH pela via transdermal (Adesivos)
 ### Gel
-___
+
 - Entre 3mg e 6mg por dia + Bloqueador de Testosterona.
 
 Consulte a embalagem e saiba quantos mg de estradiol cada pump contém.
@@ -129,7 +129,7 @@ Se for mais cômodo, você pode espalhar o gel em dois ou mais locais de aplica�
 **Importante:** Você deve SEMPRE tomar banho antes de aplicar o gel e, se possível, depile a(s) área(s) de aplicação. Sujeira, impurezas, suor e pelos podem diminuir a absorção do gel pela sua pele.
 
 ### Injeção IM (Intramuscular)
-___
+
 - 10mg a cada 14 dias;
 OU
 - 3mg a cada 7 dias.
@@ -152,7 +152,6 @@ ___
 ## Bloqueadores de Testosterona (Antiandrógenos)
 
 ### Espironolactona
-___
 
 - Entre 100mg e 200mg por dia.
 
@@ -165,7 +164,7 @@ Comece com 100mg por dia. Faça exames de sangue após 3 meses de uso e faça o 
 Consulte os [[Exames de sangue]] que você deve fazer se escolher tomar Espironolactona.
 
 ### Acetato de Ciproterona
-___
+
 
 - 12.5mg por dia.
 
