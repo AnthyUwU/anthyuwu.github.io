@@ -27,7 +27,7 @@ Se você decidir usar Cicloprimogyna, tome apenas os comprimidos brancos e jogue
 
 ### Transdermal (Gel)
 
-A única marca que eu conheço de gel de estradiol no Brasil é:
+O gel de estradiol mais comum encontrado na maioria das farmácias do Brasil é o
 
 - Oestrogel
 ### Transdermal (Adesivos)
