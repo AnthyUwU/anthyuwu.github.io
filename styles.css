@@ -1,0 +1,138 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 250px; /* Fixed width */
+    flex-shrink: 0; /* Prevent the sidebar from shrinking */
+    background-color: #252525;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    transition: transform 0.3s ease;
+}
+
+.content {
+    flex-grow: 1; /* Allow the content to take up remaining space */
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.sidebar-toggle {
+    position: absolute;
+    top: 10px;
+    left: 250px; /* Position the button at the edge of the sidebar */
+    background-color: #252525;
+    border: none;
+    color: #e0e0e0;
+    font-size: 1.2em;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    z-index: 1; /* Ensure the button is above the sidebar */
+    transition: left 0.3s ease; /* Smooth movement */
+}
+
+.sidebar.collapsed .sidebar-toggle {
+    left: 0; /* Move the button to the left edge when the sidebar is collapsed */
+}
+
+.sidebar-toggle:hover {
+    background-color: #333;
+}
+
+.sidebar-toggle .arrow {
+    display: inline-block;
+    transition: transform 0.3s ease; /* Smooth arrow rotation */
+}
+
+.sidebar.collapsed .arrow {
+    transform: rotate(180deg);
+}
+
+/* Hide the sidebar when collapsed */
+.sidebar.collapsed {
+    transform: translateX(-100%);
+}
+
+.sidebar h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #ffffff;
+    white-space: nowrap; /* Prevent title from wrapping */
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Remove default margin */
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+    white-space: nowrap; /* Prevent list items from wrapping */
+    overflow: hidden; /* Hide overflow */
+    text-overflow: ellipsis; /* Add ellipsis (...) for overflow text */
+}
+
+.sidebar ul li a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 1.1em;
+    display: block; /* Make the entire area clickable */
+}
+
+.sidebar ul li a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.sidebar ul li a.active {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+}
+
+a {
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+code {
+    background-color: #333333;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-family: "Courier New", Courier, monospace;
+    color: #e0e0e0;
+}
+
+pre {
+    background-color: #333333;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+pre code {
+    background-color: transparent;
+    padding: 0;
+}
