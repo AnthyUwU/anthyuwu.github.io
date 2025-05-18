@@ -13,7 +13,7 @@ body {
 }
 
 .sidebar {
-    width: 250px; /* Fixed width */
+    width: 210px; /* Fixed width */
     flex-shrink: 0; /* Prevent the sidebar from shrinking */
     background-color: #252525;
     padding: 20px;
@@ -81,16 +81,23 @@ body {
 
 .sidebar ul li {
     margin-bottom: 10px;
-    white-space: nowrap; /* Prevent list items from wrapping */
-    overflow: hidden; /* Hide overflow */
-    text-overflow: ellipsis; /* Add ellipsis (...) for overflow text */
+    /* Remove these lines: */
+    /* white-space: nowrap; */
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
+    /* Add these instead: */
+    word-break: break-word;
+    white-space: normal;
 }
 
 .sidebar ul li a {
     color: #e0e0e0;
     text-decoration: none;
     font-size: 1.1em;
-    display: block; /* Make the entire area clickable */
+    display: block;
+    /* Optional: add padding for better wrapped text appearance */
+    padding: 8px 5px;
+    line-height: 1.4;
 }
 
 .sidebar ul li a:hover {
