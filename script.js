@@ -22,6 +22,10 @@ document.addEventListener("DOMContentLoaded", function() {
                 
                 // Add click handlers to any links in the new content
                 addContentLinkHandlers();
+            
+                // Scroll to top after loading new content
+                window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll
+                // Alternatively, for instant scroll: window.scrollTo(0, 0);
             })
             .catch(err => console.error('Error loading content:', err));
     }
