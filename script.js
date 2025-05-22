@@ -20,7 +20,6 @@ document.addEventListener("DOMContentLoaded", function() {
             window.history.pushState({ page: page }, '', `#${page.replace('.html', '')}`);
             addContentLinkHandlers();
             
-            contentDiv.scrollTo({ top: 0, behavior: 'smooth' });
         })
         .catch(err => console.error('Error loading content:', err));
     }
@@ -32,6 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
             link.addEventListener('click', function(e) {
                 e.preventDefault();
                 loadContent(this.getAttribute('href'));
+                contentDiv.scrollTo({ top: 0, behavior: 'smooth' });
             });
         });
     }
