@@ -62,3 +62,20 @@ links.forEach(link => {
         : links[0].getAttribute('href');
     loadContent(initialPage);
 });
+
+// Mobile detection
+function isMobileDevice() {
+    return (typeof window.orientation !== "undefined") || 
+           (navigator.userAgent.indexOf('IEMobile') !== -1) ||
+           (window.innerWidth <= 768);
+}
+
+if (isMobileDevice()) {
+    const warning = document.createElement('div');
+    warning.className = 'mobile-warning';
+    warning.innerHTML = `
+        ⚠️ Por enquanto, esse site funciona apenas no PC. Em breve haverá uma versão para celulares.
+        <a href="#" onclick="this.parentElement.style.display='none'">[Fechar]</a>
+    `;
+    document.body.prepend(warning);
+}
