@@ -20,10 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
             window.history.pushState({ page: page }, '', `#${page.replace('.html', '')}`);
             addContentLinkHandlers();
             
-            // Small delay before scrolling (50ms is usually enough)
-            setTimeout(() => {
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-            }, 50);
+            contentDiv.scrollTo({ top: 0, behavior: 'smooth' });
         })
         .catch(err => console.error('Error loading content:', err));
     }
