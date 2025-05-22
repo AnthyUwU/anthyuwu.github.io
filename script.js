@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // Function to load content
-    function loadContent(page) {
+function loadContent(page) {
     fetch(page)
         .then(response => response.text())
         .then(data => {
@@ -20,29 +20,31 @@ document.addEventListener("DOMContentLoaded", function() {
             window.history.pushState({ page: page }, '', `#${page.replace('.html', '')}`);
             addContentLinkHandlers();
             
+            // Scroll after content loads (works for ALL navigation)
+            setTimeout(() => {
+                contentDiv.scrollTo({ top: 0, behavior: 'smooth' });
+            }, 50); // Small delay ensures smooth scroll
         })
         .catch(err => console.error('Error loading content:', err));
-    }
+}
 
-    // Function to handle links within content
-    function addContentLinkHandlers() {
-        const contentLinks = contentDiv.querySelectorAll('a[href$=".html"]');
-        contentLinks.forEach(link => {
-            link.addEventListener('click', function(e) {
-                e.preventDefault();
-                loadContent(this.getAttribute('href'));
-                contentDiv.scrollTo({ top: 0, behavior: 'smooth' });
-            });
-        });
-    }
-
-    // Handle sidebar navigation
-    links.forEach(link => {
+function addContentLinkHandlers() {
+    const contentLinks = contentDiv.querySelectorAll('a[href$=".html"]');
+    contentLinks.forEach(link => {
         link.addEventListener('click', function(e) {
             e.preventDefault();
             loadContent(this.getAttribute('href'));
         });
     });
+}
+
+// Handle sidebar links (add scroll here too!)
+links.forEach(link => {
+    link.addEventListener('click', function(e) {
+        e.preventDefault();
+        loadContent(this.getAttribute('href'));
+    });
+});
 
     // Handle back/forward navigation
     window.addEventListener('popstate', function(e) {
