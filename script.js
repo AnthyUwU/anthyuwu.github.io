@@ -13,20 +13,19 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Function to load content
     function loadContent(page) {
-        fetch(page)
-            .then(response => response.text())
-            .then(data => {
-                contentDiv.innerHTML = data;
-                // Update URL without reloading
-                window.history.pushState({ page: page }, '', `#${page.replace('.html', '')}`);
-                
-                // Add click handlers to any links in the new content
-                addContentLinkHandlers();
+    fetch(page)
+        .then(response => response.text())
+        .then(data => {
+            contentDiv.innerHTML = data;
+            window.history.pushState({ page: page }, '', `#${page.replace('.html', '')}`);
+            addContentLinkHandlers();
             
-                // Scroll to top after loading new content
-                window.scrollTo(0, 0);
-            })
-            .catch(err => console.error('Error loading content:', err));
+            // Small delay before scrolling (50ms is usually enough)
+            setTimeout(() => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }, 50);
+        })
+        .catch(err => console.error('Error loading content:', err));
     }
 
     // Function to handle links within content
