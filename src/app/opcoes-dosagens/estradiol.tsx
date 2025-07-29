@@ -103,7 +103,7 @@ function Injecao(){
 		(Dosagens referentes à uma ampola com 10mg Enantato de estradiol + 150mg Algestona Acetofenida)
 		</p>
 		<p>
-		A TH feita com injeções <strong>NÃO</strong> precisa de bloqueadores de Testosterona! A concentração de Estradiol que entra no corpo de uma vez só é alta o suficiente para que a sua produção natural de Testosterona quase pare, e seus níveis de Testosterona se reduzam para os mesmos níveis que buscamos nos outros métodos com uso de bloqueadores.
+		A TH feita com injeções <strong>NÃO</strong> precisa de bloqueadores de Testosterona! A Algestona Acetofenida já age como um bloqueador de Testosterona, de forma que seus níveis se reduzam para os que buscamos nos outros métodos com uso de bloqueadores.
 		</p>
 		<strong>Não tome bloqueadores de testosterona se você fizer TH com medicamentos injetáveis.</strong>
 		<p>Para aprender a como realizar a aplicação em si mesma, consulte o <a href="/manual-aplicacao">Manual de Aplicação</a>!</p>
