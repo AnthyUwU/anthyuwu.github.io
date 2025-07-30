@@ -7,19 +7,10 @@ function Oral(){
 		<div className={styles.content}>
 		<h3>Oral</h3>
 		<ul><li>Entre 4mg e 8mg de estradiol por dia + Bloqueador de testosterona.</li></ul>
-		<p>
-		Comece com 4mg por dia. Faça exames de sangue após 3 meses de uso e faça o <a href="/reajuste">reajuste de dose</a> se necessário.
-		</p>
-		<p>
-		Consulte a duração dos adesivos e não use por mais tempo do que recomenda a embalagem, pois não será efetivo.
-		</p>
-		<p>
-		Comece com 100μg por dia. Faça exames de sangue após 3 meses de uso e faça o <a href="/reajuste">reajuste de dose</a> se necessário.
-		</p>
-		<p>
-		Siga as instruções da embalagem ou da bula para aplicar o adesivo.
-		</p>
-		<ExameSangueAviso via="oral (Comprimidos)" />
+		<span>
+			Comece com 4mg por dia.{' '}
+			<ExameSangueAviso via="oral (Comprimidos)" />
+		</span>
 		</div>
 	)
 }
@@ -35,13 +26,14 @@ function Adesivo(){
 		<p>
 			Consulte a duração dos adesivos e não use por mais tempo do que recomenda a embalagem, pois não será efetivo.
 		</p>
-		<p>
-			Comece com 100μg por dia. Faça exames de sangue após 3 meses de uso e faça o <a href="/reajuste">reajuste de dose</a> se necessário.
-		</p>
+
 		<p>
 			Siga as instruções da embalagem ou da bula para aplicar o adesivo.
 		</p>
-		<ExameSangueAviso via="transdermal (Adesivos)"/>
+		<span>
+			Comece com 100μg por dia.{' '}
+			<ExameSangueAviso via="transdermal (Adesivos)" />
+		</span>
 		</div>
 	)
 }
