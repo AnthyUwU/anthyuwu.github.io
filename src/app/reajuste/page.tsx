@@ -11,7 +11,7 @@ export default function Home(){
 			<p>
 			Alternativamente, você pode entrar no meu servidor e pedir ajuda no chat de hormonização! Assim, eu ou minha esposa (starpanims) vamos te ajudar assim que possível.
 			</p>
-			<a href="https://discord.gg/dm49CtfVju">https://discord.gg/dm49CtfVju</a>
+			<a href="https://discord.gg/tvSDezQGQU">https://discord.gg/tvSDezQGQU</a>
 		  </main>
 		</div>
 	  );
