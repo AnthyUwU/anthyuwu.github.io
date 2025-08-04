@@ -29,7 +29,7 @@ function DetalheImportante(){
               <li>E3 - Estriol</li>
               <li>E4 - Estetrol</li>
             </ol>
-            <p>O principal hormônio feminizante é o Estradiol (E2). Por isso, vamos nos referir a ele neste guia sempre como Estradiol ou E2. Lembre-se disso! Os outros tipos de estradiol não vêm ao caso.</p>
+            <p>O principal hormônio feminizante é o Estradiol (E2). Por isso, vamos nos referir a ele neste guia sempre como Estradiol ou E2. Lembre-se disso! Os outros tipos de estrogênio não vêm ao caso.</p>
           </div>
         </section>
   )
