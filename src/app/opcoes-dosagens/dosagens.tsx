@@ -46,6 +46,9 @@ function Referencias(){
 	  };
 	return (
 		<div className={styles.content}>
+		<h3>
+		Referência:
+		</h3>
 		<p>
 		As dosagens listadas aqui são referenciadas de uma tabela do Transfemscience. Mais informações sobre esse site estarão no capítulo de referências.
 		</p>
