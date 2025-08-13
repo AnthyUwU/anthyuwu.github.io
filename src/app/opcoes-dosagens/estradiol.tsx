@@ -8,6 +8,7 @@ function Oral(){
 		<h3>Oral</h3>
 		<ul><li>Entre 4mg e 8mg de estradiol por dia + Bloqueador de testosterona.</li></ul>
 		<span>
+			Se precisar de tomar mais de um comprimido por dia para alcançar a dose adequada, tome todos de uma vez, sempre no mesmo horário.
 			Comece com 4mg por dia.{' '}
 			<ExameSangueAviso via="oral (Comprimidos)" />
 		</span>
