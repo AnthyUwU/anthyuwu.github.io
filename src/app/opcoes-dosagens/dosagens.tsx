@@ -35,14 +35,6 @@ function NaoFeminizaMaisMenos(){
 }
 
 function Referencias(){
-	return(
-		<div className={styles.content}>
-		<h3>
-		Referência:
-		</h3>
-		</div>
-	)
-	
 	const titulos = ["Dose baixa", "Dose moderada", "Dose alta", "Dose muito alta"];
 	const values = {
 		Oral: ['2 mg/dia', '4 mg/dia', '8 mg/dia', '12 mg/dia'],
