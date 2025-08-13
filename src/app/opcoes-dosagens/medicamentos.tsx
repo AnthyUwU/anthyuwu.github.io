@@ -44,7 +44,7 @@ function BloqueadoresTestosterona() {
 	);
   }
   
-  function Gel() {
+  function Adesivos() {
 	return (
 	  <div className={styles.content}>
 		<h3>Transdermal (Adesivos)</h3>
@@ -64,10 +64,23 @@ function BloqueadoresTestosterona() {
 	  </div>
 	);
   }
+
+  function Gel() {
+	return (
+		<div className={styles.content}>
+			<h3>Transdermal (Gel)</h3>
+			<p>O gel de estradiol mais comum encontrado na maioria das farmácias do Brasil é o</p>
+			<ul>
+				<li>Oestrogel</li>
+			</ul>
+		</div>
+	)
+  }
   
   function Injetavel() {
 	return (
 	  <div className={styles.content}>
+		<h3>Injetável</h3>
 		<p>
 		  Só há uma opção de medicamento injetável disponível nas farmácias
 		  brasileiras:
@@ -93,6 +106,7 @@ export default function Medicamentos() {
 		<BloqueadoresTestosterona />
 		<Oral />
 		<Gel />
+		<Adesivos />
 		<Injetavel />
 	  </section>
 	);
