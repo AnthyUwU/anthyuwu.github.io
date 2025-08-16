@@ -1,10 +1,13 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
+const releaseConfig: NextConfig = {
   assetPrefix: './',
-  basePath: process.env.NODE_ENV === 'production' ? '/anthyuwu.github.io': undefined,
+  basePath: '/anthyuwu.github.io',
   trailingSlash: true,
-  output: process.env.NODE_ENV === 'production' ? 'export': undefined,
+  output: 'export',
 };
 
-export default nextConfig;
+const debugConfig: NextConfig = {
+
+};
+export default process.env.NODE_ENV === 'production' ? releaseConfig : debugConfig;
