@@ -2,9 +2,9 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   assetPrefix: './',
-  basePath: '/anthyuwu.github.io',
+  basePath: process.env.NODE_ENV === 'production' ? '/anthyuwu.github.io': undefined,
   trailingSlash: true,
-  output: "export",
+  output: process.env.NODE_ENV === 'production' ? 'export': undefined,
 };
 
 export default nextConfig;
