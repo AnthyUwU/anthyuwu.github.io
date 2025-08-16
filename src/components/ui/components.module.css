@@ -1,4 +1,25 @@
 .sidebarlist {
 	color: white;
-	padding: 4px;
+	padding: 12px;
+	line-height: normal;
+	align-items: center;
+	font-size: small;
+	text-align: left;
+	overflow: hidden;
+	width: 100%;
+	height: 2px;
+}
+.sidebarbutton {
+	list-style: circle;
+}
+.sidebarlist:hover {
+	background-color: rgb(57, 57, 57, 0.3);
+}
+.sidebarmenu ul{
+	text-align: left;
+	padding: 2px 14px;
+	margin: 0;
+}
+.sidebarmenu {
+	padding: 2px 18px;
 }
