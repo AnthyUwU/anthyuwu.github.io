@@ -4,7 +4,7 @@ import styles from "../layout.module.css";
 
 function Oral(){
 	return (
-		<div className={styles.content}>
+		<div className={styles.content} id="oral-estradiol">
 		<h3>Oral</h3>
 		<ul><li>Entre 4mg e 8mg de estradiol por dia + Bloqueador de testosterona.</li></ul>
 		<p>Se precisar de tomar mais de um comprimido por dia para alcançar a dose adequada, tome todos de uma vez, sempre no mesmo horário.</p>
@@ -18,7 +18,7 @@ function Oral(){
 
 function Adesivo(){
 	return (
-		<div className={styles.content}>
+		<div className={styles.content} id="adesivo-estradiol">
 		<h3>Adesivo</h3>
 		<ul><li>Entre 100μg e 400μg por dia + Bloqueador de Testosterona.</li></ul>
 		<p>
@@ -42,7 +42,7 @@ function Adesivo(){
 
 function Gel(){
 	return (
-		<div className={styles.content}>
+		<div className={styles.content} id="gel-estradiol">
 		<h3>Gel</h3>
 		<ul><li>Entre 3mg e 6mg por dia + Bloqueador de Testosterona.</li></ul>
 
@@ -82,7 +82,7 @@ function Gel(){
 
 function Injecao(){
 	return (
-		<div className={styles.content}>
+		<div className={styles.content} id="injecao-estradiol">
 		<h3>Injeção IM (Intramuscular)</h3>
 		<ul>
 			<li>

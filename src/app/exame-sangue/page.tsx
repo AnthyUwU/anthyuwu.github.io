@@ -8,7 +8,7 @@ function Acetato(){
 		"Albumina"
 	]
 	return (
-		<div className={styles.content}>
+		<div className={styles.content} id='acetato'>
 			<h2>Acetato de Ciproterona</h2>
 			<div className={styles.content}>
 			<p>
@@ -37,7 +37,7 @@ function Espironolactona(){
 		"TFGe"
 	]
 	return (
-		<div className={styles.content}>
+		<div className={styles.content} id='spiro'>
 			<h2>
 			Espironolactona
 			</h2>
@@ -66,7 +66,7 @@ function Bicalutamida(){
 	const exames = ["Transaminase Glutâmico Pirúvica",
 		 "Transaminase Glutâmico Oxalacética", "Bilirrubina Total"]
 	return (
-		<div className="content">
+		<div className="content" id='bica'>
 			<h2>
 			Bicalutamida
 			</h2>

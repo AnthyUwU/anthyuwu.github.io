@@ -5,7 +5,7 @@ import styles from "../layout.module.css";
 
 function NiveisDeEstradiol(){
 	return (
-		<div className={styles.content}>
+		<div className={styles.content} id="niveis-estradiol">
 		<p>
 		De acordo com o SoC 8, os níveis ideais de Estradiol e Testosterona para os melhores resultados, sem correr riscos desnecessários são:
 		</p>
@@ -21,7 +21,7 @@ function NiveisDeEstradiol(){
 
 function NaoFeminizaMaisMenos(){
 	return (
-		<div className={styles.content}>
+		<div className={styles.content} id="feminiza-mais">
 		<h3>
 		Não existe medicamento que feminiza mais ou feminiza menos:
 		</h3>
@@ -45,7 +45,7 @@ function Referencias(){
 		'Fase equivalente do ciclo menstrual': ['Folicular', 'Ciclo inteiro', 'Lútea', 'Ovulação']
 	  };
 	return (
-		<div className={styles.content}>
+		<div className={styles.content} id="referencias">
 		<h3>
 		Referência:
 		</h3>
