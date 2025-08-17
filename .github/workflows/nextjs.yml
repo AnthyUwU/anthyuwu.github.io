@@ -43,8 +43,6 @@ jobs:
             echo "manager=npm" >> $GITHUB_OUTPUT
             echo "command=install --package-lock-only" >> $GITHUB_OUTPUT
             echo "manager=npm" >> $GITHUB_OUTPUT
-            echo "command=cl" >> $GITHUB_OUTPUT
-            echo "manager=npm" >> $GITHUB_OUTPUT
             echo "command=ci" >> $GITHUB_OUTPUT
             echo "runner=npx --no-install" >> $GITHUB_OUTPUT
             exit 0
