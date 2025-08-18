@@ -128,7 +128,7 @@ export default function AppSidebar() {
   const loadMenuItems = () => {
     return menuItems.map((item, index) => {
       return (
-        <SidebarMenuItem className="list-none" key={item.title + index.toString()}>
+        <SidebarMenuItem className="list-none" key={`${index}-${item.title}`}>
           <SidebarMenuButton asChild>
             <Link href={item.url} className={styles.sidebarlist}>
               <span>{item.title}</span>
@@ -151,7 +151,7 @@ export default function AppSidebar() {
   const loadMenuKey = (key: Key, url: string) => {
     if (key.keys !== undefined) {
       return (
-        <SidebarMenu className={styles.sidebargroup} key={key.title}>
+        <SidebarMenu className={styles.sidebargroup} key={`subgroup-${key.title}`}>
             <SidebarMenuItem className="list-none">
                 <SidebarMenuButton asChild>
                   <Link className={styles.sidebarlist} href={url + key.jump !== undefined ? "#" + key.jump : ""}>
@@ -164,7 +164,7 @@ export default function AppSidebar() {
       );
     }
     return (
-      <SidebarMenuSubItem className="list-none" key={key.title}>
+      <SidebarMenuSubItem className="list-none" key={`group-${key.title}`}>
         <SidebarMenuSubButton asChild>
           <Link className={styles.sidebarlist} href={url + "#" + key.jump}>
             <span>{key.title}</span>
