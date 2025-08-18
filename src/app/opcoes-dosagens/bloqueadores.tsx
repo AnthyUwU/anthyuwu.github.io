@@ -130,7 +130,7 @@ export default function Bloqueadores() {
       <ul>
         <li>Acetato de ciproterona</li>
         <li>Espironolactona</li>
-		<li>Bicalutamida</li>
+        <li>Bicalutamida</li>
       </ul>
       <AcetatoCipro />
       <Espironolactona />

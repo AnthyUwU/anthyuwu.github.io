@@ -1,32 +1,32 @@
 .sidebarlist {
-	color: white;
-	padding: 12px;
-	line-height: normal;
-	font-size: small;
-	height: 2px;
-	cursor: pointer;
+  color: white;
+  padding: 12px;
+  line-height: normal;
+  font-size: small;
+  height: 2px;
+  cursor: pointer;
 }
 .sidebarbutton {
-	list-style: circle;
+  list-style: circle;
 }
 .sidebarlist:hover {
-	background-color: rgb(57, 57, 57, 0.3);
+  background-color: rgb(57, 57, 57, 0.3);
 }
 
-.sidebarmenu ul{
-	text-align: left;
-	padding: 2px 14px;
-	margin: 0;
-	border-left: 0;
+.sidebarmenu ul {
+  text-align: left;
+  padding: 2px 14px;
+  margin: 0;
+  border-left: 0;
 }
 .sidebarmenu {
-	padding: 5px 2px;
+  padding: 5px 2px;
 }
-.sidebarmenu .sidebargroup{
-	padding: 0;
+.sidebarmenu .sidebargroup {
+  padding: 0;
 }
-.sidebarmenu .sidebargroup ul{
-	border-left: 1px solid #fff;
-	margin-left: 20px;
-	padding-left: 2px;
+.sidebarmenu .sidebargroup ul {
+  border-left: 1px solid #fff;
+  margin-left: 20px;
+  padding-left: 2px;
 }

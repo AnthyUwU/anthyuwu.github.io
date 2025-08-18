@@ -24,7 +24,7 @@ function Oral() {
         vermelhos para evitar tomar medicações desnecessárias que podem ter
         efeitos colaterais negativos.
       </p>
-	  	  <h4>Dose:</h4>
+      <h4>Dose:</h4>
       <ul>
         <li>
           Entre 4mg e 8mg de estradiol por dia + Bloqueador de testosterona.
@@ -58,7 +58,7 @@ function Adesivo() {
         outras opções de adesivos, confira que eles não tem Noretisterona antes
         de comprar!
       </p>
-	  	  <h4>Dose:</h4>
+      <h4>Dose:</h4>
       <ul>
         <li>Entre 100μg e 400μg por dia + Bloqueador de Testosterona.</li>
       </ul>
@@ -92,7 +92,7 @@ function Gel() {
       <ul>
         <li>Oestrogel</li>
       </ul>
-	  	  <h4>Dose:</h4>
+      <h4>Dose:</h4>
       <ul>
         <li>Entre 3mg e 6mg por dia + Bloqueador de Testosterona.</li>
       </ul>
@@ -161,7 +161,7 @@ function Injecao() {
         <li>Perlutan</li>
         <li>Perlumes</li>
       </ul>
-	  <h4>Dose:</h4>
+      <h4>Dose:</h4>
       <ul>
         <li>10mg a cada 14 dias; OU</li>
         <li>3mg a cada 7 dias.</li>

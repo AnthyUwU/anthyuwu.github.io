@@ -51,36 +51,36 @@ const menuItems = [
     title: "Medicamentos",
     url: "/opcoes-dosagens",
     keys: [
+      {
+        title: "Niveis de Estradiol",
+        jump: "niveis-estradiol",
+        keys: [
           {
-            title: "Niveis de Estradiol",
-            jump: "niveis-estradiol",
-            keys: [
-                        {
             title: "Referências",
             jump: "referencias",
           },
-            ]
-          },
+        ],
+      },
+      {
+        title: "Oral",
+        jump: "oral-dosagem",
+      },
+      {
+        title: "Adesivo",
+        jump: "adesivo-dosagem",
+      },
+      {
+        title: "Gel",
+        jump: "gel-dosagem",
+      },
+      {
+        title: "Injeção",
+        jump: "injecao-dosagem",
+      },
+      {
+        title: "Bloqueadores de Testosterona",
+        keys: [
           {
-            title: "Oral",
-            jump: "oral-dosagem",
-          },
-          {
-            title: "Adesivo",
-            jump: "adesivo-dosagem",
-          },
-          {
-            title: "Gel",
-            jump: "gel-dosagem",
-          },
-          {
-            title: "Injeção",
-            jump: "injecao-dosagem",
-          },
-          {
-            title: "Bloqueadores de Testosterona",
-            keys: [
-                                  {
             title: "Acetato",
             jump: "acetato",
           },
@@ -92,9 +92,9 @@ const menuItems = [
             title: "Bicalutamida",
             jump: "bica",
           },
-            ]
-          }
-    ]
+        ],
+      },
+    ],
   },
   {
     title: "Exames de sangue",
@@ -151,20 +151,29 @@ export default function AppSidebar() {
   const loadMenuKey = (key: Key, url: string) => {
     if (key.keys !== undefined) {
       return (
-        <SidebarMenu className={styles.sidebargroup} key={`subgroup-${url}-${key.title}`}>
-            <SidebarMenuItem className="list-none">
-                <SidebarMenuButton asChild>
-                  <Link className={styles.sidebarlist} href={key.jump !== undefined ? `${url}#${key.jump}` : url}>
-                    <span>{key.title}</span>
-                  </Link>
-                </SidebarMenuButton>
-            </SidebarMenuItem>
-              {key.keys && loadMenuKeys(key.keys, url)}
+        <SidebarMenu
+          className={styles.sidebargroup}
+          key={`subgroup-${url}-${key.title}`}
+        >
+          <SidebarMenuItem className="list-none">
+            <SidebarMenuButton asChild>
+              <Link
+                className={styles.sidebarlist}
+                href={key.jump !== undefined ? `${url}#${key.jump}` : url}
+              >
+                <span>{key.title}</span>
+              </Link>
+            </SidebarMenuButton>
+          </SidebarMenuItem>
+          {key.keys && loadMenuKeys(key.keys, url)}
         </SidebarMenu>
       );
     }
     return (
-      <SidebarMenuSubItem className="list-none" key={`group-${url}-${key.title}`}>
+      <SidebarMenuSubItem
+        className="list-none"
+        key={`group-${url}-${key.title}`}
+      >
         <SidebarMenuSubButton asChild>
           <Link className={styles.sidebarlist} href={`${url}#${key.jump}`}>
             <span>{key.title}</span>
