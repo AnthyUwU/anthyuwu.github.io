@@ -151,10 +151,10 @@ export default function AppSidebar() {
   const loadMenuKey = (key: Key, url: string) => {
     if (key.keys !== undefined) {
       return (
-        <SidebarMenu className={styles.sidebargroup} key={`subgroup-${key.title}`}>
+        <SidebarMenu className={styles.sidebargroup} key={`subgroup-${url}-${key.title}`}>
             <SidebarMenuItem className="list-none">
                 <SidebarMenuButton asChild>
-                  <Link className={styles.sidebarlist} href={url + key.jump !== undefined ? "#" + key.jump : ""}>
+                  <Link className={styles.sidebarlist} href={key.jump !== undefined ? `${url}#${key.jump}` : url}>
                     <span>{key.title}</span>
                   </Link>
                 </SidebarMenuButton>
@@ -164,9 +164,9 @@ export default function AppSidebar() {
       );
     }
     return (
-      <SidebarMenuSubItem className="list-none" key={`group-${key.title}`}>
+      <SidebarMenuSubItem className="list-none" key={`group-${url}-${key.title}`}>
         <SidebarMenuSubButton asChild>
-          <Link className={styles.sidebarlist} href={url + "#" + key.jump}>
+          <Link className={styles.sidebarlist} href={`${url}#${key.jump}`}>
             <span>{key.title}</span>
           </Link>
         </SidebarMenuSubButton>
