@@ -11,11 +11,6 @@ import {
 } from "./sidebar";
 
 import styles from "./components.module.css";
-import {
-  Collapsible,
-  CollapsibleContent,
-  CollapsibleTrigger,
-} from "@radix-ui/react-collapsible";
 import Link from "next/link";
 
 interface Key {

@@ -160,7 +160,7 @@ export default function Home() {
         <Porque />
         <div className={styles.inline}>
           <p>Próximo capítulo:</p>
-          <a href="/opcoes-dosagens">Opções e Dosagens</a>
+          <a href="/opcoes-dosagens">Medicamentos</a>
         </div>
       </main>
     </div>
