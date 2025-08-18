@@ -6,6 +6,7 @@ import styles from "../layout.module.css";
 function NiveisDeEstradiol(){
 	return (
 		<div className={styles.content} id="niveis-estradiol">
+			<h3>Niveis de Estradiol</h3>
 		<p>
 		De acordo com o SoC 8, os níveis ideais de Estradiol e Testosterona para os melhores resultados, sem correr riscos desnecessários são:
 		</p>
@@ -47,11 +48,12 @@ function Referencias(){
 	return (
 		<div className={styles.content} id="referencias">
 		<h3>
-		Referência:
+		Referências
 		</h3>
 		<p>
-		As dosagens listadas aqui são referenciadas de uma tabela do Transfemscience. Mais informações sobre esse site estarão no capítulo de referências.
+		Esta é a tabela de referência que usamos para entender quais serão os níveis de Estradiol no seu corpo para cada cosagem, para cada uma das vias (oral, gel, adesivo e injetável).
 		</p>
+		<p>As dosagens listadas aqui são referenciadas de uma tabela do Transfemscience. Mais informações sobre esse site estarão no capítulo de referências.</p>
 		<table>
 			<thead>
 				<tr>
@@ -83,8 +85,8 @@ export default function Dosagens() {
 		</h2>
 
 		<NiveisDeEstradiol />
-		<NaoFeminizaMaisMenos />
 		<Referencias />
+		<NaoFeminizaMaisMenos />
 		<Estradiol />
 		<Bloqueadores />
 	</section>)

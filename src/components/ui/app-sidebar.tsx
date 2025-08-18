@@ -11,7 +11,18 @@ import {
 } from "./sidebar";
 
 import styles from "./components.module.css";
-import { Collapsible } from "@radix-ui/react-collapsible";
+import {
+  Collapsible,
+  CollapsibleContent,
+  CollapsibleTrigger,
+} from "@radix-ui/react-collapsible";
+import Link from "next/link";
+
+interface Key {
+  title: string;
+  jump?: string;
+  keys?: Key[];
+}
 
 const menuItems = [
   {
@@ -37,66 +48,53 @@ const menuItems = [
     ],
   },
   {
-    title: "Opções e Dosagens",
+    title: "Medicamentos",
     url: "/opcoes-dosagens",
     keys: [
-      {
-        title: "Bloqueadores",
-        jump: "bloqueadores-testosterona",
-      },
-      {
-        title: "Oral",
-        jump: "oral",
-      },
-      {
-        title: "Gel",
-        jump: "gel",
-      },
-      {
-        title: "Adesivos",
-        jump: "adesivos",
-      },
-      {
-        title: "Injetável",
-        jump: "injetavel",
-      },
-      {
-        title: "Niveis de Estradiol",
-        jump: "niveis-estradiol",
-      },
-      {
-        title: "Referências",
-        jump: "referencias",
-      },
-      {
-        title: "Oral",
-        jump: "oral-estradiol",
-      },
-      {
-        title: "Adesivo",
-        jump: "adesivo-estradiol",
-      },
-      {
-        title: "Gel",
-        jump: "gel-estradiol",
-      },
-      {
-        title: "Injeção",
-        jump: "injecao-estradiol",
-      },
-      {
-        title: "Acetato",
-        jump: "acetato",
-      },
-      {
-        title: "Espironolactona",
-        jump: "spirogyra",
-      },
-      {
-        title: "Bicalutamida",
-        jump: "bica",
-      },
-    ],
+          {
+            title: "Niveis de Estradiol",
+            jump: "niveis-estradiol",
+            keys: [
+                        {
+            title: "Referências",
+            jump: "referencias",
+          },
+            ]
+          },
+          {
+            title: "Oral",
+            jump: "oral-dosagem",
+          },
+          {
+            title: "Adesivo",
+            jump: "adesivo-dosagem",
+          },
+          {
+            title: "Gel",
+            jump: "gel-dosagem",
+          },
+          {
+            title: "Injeção",
+            jump: "injecao-dosagem",
+          },
+          {
+            title: "Bloqueadores de Testosterona",
+            keys: [
+                                  {
+            title: "Acetato",
+            jump: "acetato",
+          },
+          {
+            title: "Espironolactona",
+            jump: "spirogyra",
+          },
+          {
+            title: "Bicalutamida",
+            jump: "bica",
+          },
+            ]
+          }
+    ]
   },
   {
     title: "Exames de sangue",
@@ -127,37 +125,60 @@ const menuItems = [
 ];
 
 export default function AppSidebar() {
+  const loadMenuItems = () => {
+    return menuItems.map((item) => {
+      return (
+        <SidebarMenuItem className="list-none" key={item.title}>
+          <SidebarMenuButton asChild>
+            <Link href={item.url} className={styles.sidebarlist}>
+              <span>{item.title}</span>
+            </Link>
+          </SidebarMenuButton>
+          {item.keys !== undefined && loadMenuKeys(item.keys, item.url)}
+        </SidebarMenuItem>
+      );
+    });
+  };
+
+  const loadMenuKeys = (keys: Key[], url: string) => {
+    return (
+      <SidebarMenuSub className="list-none">
+        {keys.map((value) => loadMenuKey(value, url))}
+      </SidebarMenuSub>
+    );
+  };
+
+  const loadMenuKey = (key: Key, url: string) => {
+    if (key.keys !== undefined) {
+      return (
+        <SidebarMenu className={styles.sidebargroup} key={key.title}>
+            <SidebarMenuItem className="list-none">
+                <SidebarMenuButton asChild>
+                  <Link className={styles.sidebarlist} href={url + key.jump !== undefined ? "#" + key.jump : ""}>
+                    <span>{key.title}</span>
+                  </Link>
+                </SidebarMenuButton>
+            </SidebarMenuItem>
+              {key.keys && loadMenuKeys(key.keys, url)}
+        </SidebarMenu>
+      );
+    }
+    return (
+      <SidebarMenuSubItem className="list-none" key={key.title}>
+        <SidebarMenuSubButton asChild>
+          <Link className={styles.sidebarlist} href={url + "#" + key.jump}>
+            <span>{key.title}</span>
+          </Link>
+        </SidebarMenuSubButton>
+      </SidebarMenuSubItem>
+    );
+  };
   return (
     <Sidebar variant="floating">
       <SidebarContent>
         <SidebarMenu className={styles.sidebarmenu}>
           <h1>Índices</h1>
-          {menuItems.map((item) => (
-            <SidebarMenuItem className="list-decimal"  key={item.title}>
-              <SidebarMenuButton  asChild>
-                <a href={item.url} className={styles.sidebarlist}>
-                  <span>{item.title}</span>
-                </a>
-              </SidebarMenuButton>
-              {item.keys !== undefined && (
-                <SidebarMenuSub className="list-none">
-                  {item.keys !== undefined &&
-                    item.keys.map((value) => (
-                      <SidebarMenuSubItem key={value.title.concat(value.jump)}>
-                        <SidebarMenuSubButton asChild>
-                          <a
-                            className={styles.sidebarlist}
-                            href={item.url + "#" + value.jump}
-                          >
-                            {value.title}
-                          </a>
-                        </SidebarMenuSubButton>
-                      </SidebarMenuSubItem>
-                    ))}
-                </SidebarMenuSub>
-              )}
-            </SidebarMenuItem>
-          ))}
+          {loadMenuItems()}
         </SidebarMenu>
       </SidebarContent>
     </Sidebar>

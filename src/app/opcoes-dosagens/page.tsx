@@ -8,7 +8,7 @@ export default function Home() {
       <main className={styles.main}>
         <h1>Quais são as suas opções de TH transfeminina no Brasil?</h1>
         <p><strong>NENHUM dos medicamentos mencionados nessa lista necessitam de receita médica para serem comprados em qualquer farmácia.</strong></p>
-        <Medicamentos />
+        {/* <Medicamentos /> */}
 				<Dosagens />
       </main>
     </div>

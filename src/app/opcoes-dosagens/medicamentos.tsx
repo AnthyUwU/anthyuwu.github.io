@@ -28,7 +28,7 @@ function BloqueadoresTestosterona() {
 		  <li>Cicloprimogyna</li>
 		</ul>
 		<p>
-		  <strong>Importante:</strong>A Cicloprimogyna contém dois tipos de
+		  <strong>Importante:</strong> A Cicloprimogyna contém dois tipos de
 		  comprimidos diferentes: Brancos e Vermelhos (vinho). Os comprimidos
 		  vermelhos contém{" "}
 		  <a href="https://pt.wikipedia.org/wiki/Levonorgestrel">
@@ -103,7 +103,7 @@ export default function Medicamentos() {
 	return (
 	  <section id="medicamentos">
 		<h2>Medicamentos: </h2>
-		<BloqueadoresTestosterona />
+		{/* <BloqueadoresTestosterona /> */}
 		<Oral />
 		<Gel />
 		<Adesivos />
