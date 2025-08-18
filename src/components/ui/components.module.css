@@ -12,18 +12,21 @@
 .sidebarlist:hover {
 	background-color: rgb(57, 57, 57, 0.3);
 }
-.sidebargroup {
-	color: white;
-}
-.sidebargroup:hover {
-	background-color: rgb(57, 57, 57, 0.3);
 
-}
 .sidebarmenu ul{
 	text-align: left;
 	padding: 2px 14px;
 	margin: 0;
+	border-left: 0;
 }
 .sidebarmenu {
-	padding: 2px 5px;
+	padding: 5px 2px;
+}
+.sidebarmenu .sidebargroup{
+	padding: 0;
+}
+.sidebarmenu .sidebargroup ul{
+	border-left: 1px solid #fff;
+	margin-left: 20px;
+	padding-left: 2px;
 }

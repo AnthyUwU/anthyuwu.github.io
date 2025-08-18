@@ -126,9 +126,9 @@ const menuItems = [
 
 export default function AppSidebar() {
   const loadMenuItems = () => {
-    return menuItems.map((item) => {
+    return menuItems.map((item, index) => {
       return (
-        <SidebarMenuItem className="list-none" key={item.title}>
+        <SidebarMenuItem className="list-none" key={item.title + index.toString()}>
           <SidebarMenuButton asChild>
             <Link href={item.url} className={styles.sidebarlist}>
               <span>{item.title}</span>
