@@ -61,7 +61,7 @@ function AcetatoCipro() {
 
 function Espironolactona() {
   return (
-    <div className={styles.content} id="spirogyra">
+    <div className={styles.content} id="espironolactona">
       <h3>Espironolactona</h3>
       <ul>
         <li>Entre 100mg e 200mg por dia.</li>

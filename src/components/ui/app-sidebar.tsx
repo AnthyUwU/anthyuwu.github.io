@@ -82,7 +82,7 @@ const menuItems = [
           },
           {
             title: "Espironolactona",
-            jump: "spirogyra",
+            jump: "espironolactona",
           },
           {
             title: "Bicalutamida",
@@ -124,7 +124,7 @@ export default function AppSidebar() {
   const loadMenuItems = () => {
     return menuItems.map((item, index) => {
       return (
-        <SidebarMenuItem className="list-none" key={`${index}-${item.title}`}>
+        <SidebarMenuItem className="list-none" key={`${index}-${item.title}-${item.url}`}>
           <SidebarMenuButton asChild>
             <Link href={item.url} className={styles.sidebarlist}>
               <span>{item.title}</span>
@@ -149,7 +149,7 @@ export default function AppSidebar() {
       return (
         <SidebarMenu
           className={styles.sidebargroup}
-          key={`subgroup-${url}-${key.title}`}
+          key={`subgroup-${url}-${key.title}-${key.jump}`}
         >
           <SidebarMenuItem className="list-none">
             <SidebarMenuButton asChild>
@@ -168,7 +168,7 @@ export default function AppSidebar() {
     return (
       <SidebarMenuSubItem
         className="list-none"
-        key={`group-${url}-${key.title}`}
+        key={`group-${url}-${key.title}-${key.jump}`}
       >
         <SidebarMenuSubButton asChild>
           <Link className={styles.sidebarlist} href={`${url}#${key.jump}`}>
