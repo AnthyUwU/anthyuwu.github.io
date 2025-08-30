@@ -116,7 +116,7 @@ function Bicalutamida() {
 export default function Bloqueadores() {
   return (
     <>
-      <h2>Bloqueadores de Testosterona (Antiandrógenos)</h2>
+      <h2 id="bloqueadores-testosterona">Bloqueadores de Testosterona (Antiandrógenos)</h2>
       <p>
         <strong>Importante:</strong> Antes de usar qualquer um desses
         bloqueadores, se você já usa algum medicamento regularmente, pesquise na

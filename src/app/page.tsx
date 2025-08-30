@@ -48,6 +48,13 @@ function DetalheImportante() {
           nos referir a ele neste guia sempre como Estradiol ou E2. Lembre-se
           disso! Os outros tipos de estrogênio não vêm ao caso.
         </p>
+        <p>
+          Existem formas sintéticas do hormônio Estradiol (E2) que não devem,
+          sob hipótese alguma, serem usadas. O maior exemplo disso é o
+          Etinilestradiol, recomendação muito popular de endocrinologistas que
+          não sabem o que estão fazendo e é conhecida por aumentar em até <strong>20
+          vezes</strong> os riscos de trombose (Fonte: <a href="https://sci-hub.se/10.1046/j.1365-2265.1997.2601068.x"> Asscheman et al.</a>)
+        </p>
       </div>
     </section>
   );

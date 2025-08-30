@@ -24,6 +24,13 @@ function Oral() {
         vermelhos para evitar tomar medicações desnecessárias que podem ter
         efeitos colaterais negativos.
       </p>
+      <p>
+        Apesar de ser uma recomendação comum entre comunidades LGBTQIA+,
+        ambulatórios trans e endocrinologistas ou outros profissionais da
+        medicina, o Etinilestradiol é uma forma sintética do Estradiol (E2)
+        conhecida por aumentar os riscos de trombose em até 20 vezes. <strong>Nunca, em
+        hipótese alguma, tome Etinilestradiol.</strong> (Fonte: <a href="https://sci-hub.se/10.1046/j.1365-2265.1997.2601068.x">Asscheman et al.</a>)
+      </p>
       <h4>Dose:</h4>
       <ul>
         <li>
