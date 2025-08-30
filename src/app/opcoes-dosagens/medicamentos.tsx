@@ -1,21 +1,5 @@
 import styles from "../layout.module.css";
 
-function BloqueadoresTestosterona() {
-  return (
-    <div className={styles.content} id="bloqueadores-testosterona">
-      <h3>Bloqueadores de Testosterona</h3>
-      <p>
-        No brasil, temos duas opções de bloqueadores de testosterona
-        (Antiandrógeno)
-      </p>
-      <ul>
-        <li>Acetato de ciproterona</li>
-        <li>Espironolactona</li>
-      </ul>
-    </div>
-  );
-}
-
 function Oral() {
   return (
     <div className={styles.content} id="oral">
@@ -103,7 +87,6 @@ export default function Medicamentos() {
   return (
     <section id="medicamentos">
       <h2>Medicamentos: </h2>
-      {/* <BloqueadoresTestosterona /> */}
       <Oral />
       <Gel />
       <Adesivos />
