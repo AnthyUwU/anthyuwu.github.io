@@ -140,7 +140,7 @@ function Gel() {
       </p>
       <p>
         Se for mais cômodo, você pode espalhar o gel em dois ou mais locais de
-        aplicação dif=erentes quando for usar.
+        aplicação diferentes quando for usar.
       </p>
       <p>
         <strong>Importante:</strong> Você deve <strong>SEMPRE</strong> tomar
