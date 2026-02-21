@@ -151,7 +151,19 @@ export default function Home() {
             corpo.
           </strong>
         </p>
-
+        <p>
+          Quando for fazer os exames de sangue, faça na época onde os seus
+          níveis estão o mais baixos possível.
+        </p>
+        <p>
+          Se você aplica perlutan a cada 14 dias, espere passar 14 dias desde a
+          sua última aplicação, e faça o exame no dia que você iria aplicar
+          novamente, mas ANTES da aplicação. (Ex. Exames de sangue de manhã
+          cedo, aplicação da perlutan à noite). Dessa forma, conseguimos medir
+          os níveis mais baixos dos hormônios no seu corpo, que é a principal
+          métrica que usamos para ver se estão bons, ou precisam de um reajuste
+          de dose.
+        </p>
         <h2>SEMPRE faça esses exames:</h2>
         <p>
           Não importa se você escolheu fazer TH por via oral, gel, adesivo ou
