@@ -53,7 +53,7 @@ function DetalheImportante() {
           sob hipótese alguma, serem usadas. O maior exemplo disso é o
           Etinilestradiol, recomendação muito popular de endocrinologistas que
           não sabem o que estão fazendo e é conhecida por aumentar em até <strong>20
-          vezes</strong> os riscos de trombose (Fonte: <a href="https://sci-hub.se/10.1046/j.1365-2265.1997.2601068.x"> Asscheman et al.</a>)
+          vezes</strong> os riscos de trombose (Fonte: <a href="https://sci-hub.ee/10.1046/j.1365-2265.1997.2601068.x"> Asscheman et al.</a>)
         </p>
       </div>
     </section>
