@@ -120,6 +120,7 @@ a.secondary {
 @media (max-width: 600px) {
   .page {
     padding-top: 32px;
+    word-break: break-all;
   }
 
   .main {
