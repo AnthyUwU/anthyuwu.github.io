@@ -5,29 +5,7 @@ export default function Home() {
       <main className={styles.main}>
         <h1>Manual de Aplicação de injetáveis</h1>
         <p>Essa página ainda está em construção.</p>
-        <p>
-          Se você escolheu fazer TH com estradiol injetável, eu e minha esposa
-          (anthyuwu e starpanims no Discord) fizemos um vídeo mostrando o
-          processo.
-        </p>
-        <p>
-          Se você tiver alguma dúvida com o vídeo ou precisar de mais ajuda,
-          sinta-se livre para nos chamar no Discord ou entrar no nosso servidor
-          para tirar suas dúvidas!
-        </p>
-
-        <a href="https://discord.gg/tvSDezQGQU">
-          https://discord.gg/tvSDezQGQU
-        </a>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/wsofV8BSmRU"
-          title="Perlutan tutorial"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-        ></iframe>
+        <p>Por hora, procure tutoriais de aplicação intramuscular na coxa no YouTube. Existem muitos vídeos. Dentre os vídeos em português, a maioria ensina a aplicar testosterona. O procedimento é exatamente o mesmo para injetar a perlutan, então podem seguir esses tutoriais.</p>
       </main>
     </div>
   );
