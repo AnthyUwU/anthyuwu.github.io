@@ -34,7 +34,7 @@ function Oral() {
       <h4>Dose:</h4>
       <ul>
         <li>
-          Entre 4mg e 8mg de estradiol por dia + Bloqueador de testosterona.
+          Dose inicial padrão: 4mg de estradiol por dia (Podendo ser ajustado até 8mg) + Bloqueador de testosterona.
         </li>
       </ul>
       <p>
@@ -67,7 +67,7 @@ function Adesivo() {
       </p>
       <h4>Dose:</h4>
       <ul>
-        <li>Entre 100μg e 400μg por dia + Bloqueador de Testosterona.</li>
+        <li>Dose inicial padrão: 100μg por dia (Podendo ser ajustado até 400μg) + Bloqueador de Testosterona.</li>
       </ul>
       <p>
         Consulte a embalagem e saiba quantos μg de estradiol o adesivo libera
@@ -101,7 +101,7 @@ function Gel() {
       </ul>
       <h4>Dose:</h4>
       <ul>
-        <li>Entre 3mg e 6mg por dia + Bloqueador de Testosterona.</li>
+        <li>Dose inicial padrão: 3mg de estradiol por dia (Podendo ser ajustado até 6mg) + Bloqueador de Testosterona.</li>
       </ul>
 
       <p>
