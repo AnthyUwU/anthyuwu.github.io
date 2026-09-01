@@ -133,20 +133,26 @@ function Porque() {
           lugares baseados apenas em “experiência própria”.
         </p>
         <p>
-          Por tudo isso, eu decidi abrir uma comunidade no Discord para passar o
+          Por tudo isso, eu decidi usar o Discord para passar o
           conhecimento que todas as pessoas trans precisam saber para uma TH
-          segura e eficiente usando como base sempre estudos e testes publicados
+          segura e eficaz usando sempre como base estudos e papers publicados
           oficialmente em revistas médicas.
         </p>
         <p>
           E agora, escrevo esse guia para que sirva como um registro de todas as
           informações que eu consegui ao longo do tempo, para que as pessoas
-          aprendam mesmo que não esteja disponível.
+          saibam se cuidar mesmo que um profissional capacitado não esteja disponível.
         </p>
         <p>
           Ao longo do guia, vou me esforçar para apresentar uma fonte para cada
           afirmação que eu fizer, para explicar o porquê e para que haja uma
           base sólida por trás daquilo que eu falo.
+        </p>
+        <p>
+          Disclaimer para eu não ser processado: Nada dito neste site substitui a orientação
+          de um profissional de saúde. Não há médicos licensiados no Brasil participando da redação
+          deste guia e ele deve ser usado apenas como referência.
+          Use os conhecimentos contidos nesse website por sua própria conta e risco.
         </p>
       </div>
     </section>
