@@ -51,7 +51,8 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/HTHT.png',
+    image: 'img/WSite_Banner.png',
+    metadata: [{name: 'twitter:card', content: 'summary_large_image'}],
     colorMode: {
       respectPrefersColorScheme: false,
       disableSwitch: true,
