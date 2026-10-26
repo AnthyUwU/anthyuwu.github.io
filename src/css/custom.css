@@ -14,10 +14,14 @@
   --ifm-footer-background-color: #000000;
 }
 
+div .theme-layout-footer {
+  margin: 30px 30px;
+}
+
 @media (max-width: 996px) {
   div.navbar__items.navbar__items--right > * {
     display: block;
-    position: inherit;
+    position: inherit; 
   }
 }
 

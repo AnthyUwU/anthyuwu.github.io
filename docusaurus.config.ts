@@ -60,7 +60,7 @@ const config: Config = {
     },
     docs: {
       sidebar: {
-        hideable: true
+        hideable: false
       }
     },
     navbar: {
@@ -75,11 +75,60 @@ const config: Config = {
         label: 'Nosso Discord'
       },
     ],
-      hideOnScroll: false,
+      hideOnScroll: true,
     },
     footer: {
-      copyright: "Conteúdo feito com amor por anthyuwu e starpanims. Site feito por luna_voadora",
-      
+      links: [
+        {
+          title: 'Estradiol',
+          items: [
+            {
+              label: 'Oral',
+              to: '/medicamentos#oral'
+            },
+            {
+              label: 'Injetável',
+              to: '/medicamentos#injeção-im-intramuscular'
+            },
+            {
+              label: 'Gel',
+              to: '/medicamentos#gel'
+            },
+            {
+              label: 'Adesivo',
+              to: '/medicamentos#adesivo'
+            }
+          ]
+        },
+        {
+          title: "Comunidade",
+          items: [
+            {
+              label: "Server de Ajuda Trans",
+              href: "https://discord.com/invite/5CevJqYs3f"
+            }
+          ]
+        },
+        {
+          title: "Criadores",
+          items: [
+            {
+              label: "StarP",
+              href: 'https://x.com/StarPhod4'
+            },
+            {
+              label: "Anthy",
+              href: 'https://x.com/AnthyHost'
+            },
+            {
+              label: "Luna",
+              href: 'https://x.com/luna_voadora'
+            }
+          ]
+        }
+      ],
+      // copyright: "Conteúdo feito com amor por Anthy e StarP. Site feito por Luna",
+      copyright: '<div>Conteúdo feito com amor por <a href="https://discord.gg/VjX6TXu4">Anthy</a> e <a href="https://discord.gg/FJXCGTGQ">StarP</a>. Site feito por <a href="https://discord.gg/RVmNwdt5">Luna</a></div>',
     },
     prism: {
       theme: prismThemes.github,

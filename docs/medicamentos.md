@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Quais são as suas opções de TH transfeminina no Brasil?
+# Opções de TH transfeminina no Brasil
 
 ## NENHUM dos medicamentos mencionados nessa lista necessitam de receita médica para serem comprados em qualquer farmácia.
 
