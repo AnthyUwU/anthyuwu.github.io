@@ -73,7 +73,8 @@ const config: Config = {
         href: 'https://discord.com/invite/5CevJqYs3f',
         position: 'right',
         label: 'Nosso Discord'
-      }],
+      },
+    ],
       hideOnScroll: false,
     },
     footer: {
