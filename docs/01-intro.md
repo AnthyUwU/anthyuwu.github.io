@@ -27,7 +27,9 @@ Normalmente, nós conhecemos os hormônios femininos pelo seu nome mais comum, E
 
 O principal hormônio feminizante é o Estradiol (E2). Por isso, vamos nos referir a ele neste guia sempre como Estradiol ou E2. Lembre-se disso! Os outros tipos de estrogênio não vêm ao caso.
 
-Existem formas sintéticas do hormônio Estradiol (E2) que não devem, sob hipótese alguma, serem usadas. O maior exemplo disso é o Etinilestradiol, recomendação muito popular de endocrinologistas que não sabem o que estão fazendo e é conhecida por aumentar em até 20 vezes os riscos de trombose (Fonte: [Asscheman et al.](https://sci-hub.se/10.1046/j.1365-2265.1997.2601068.x))
+:::danger
+Existem formas sintéticas do hormônio Estradiol (E2) que não devem, sob hipótese alguma, serem usadas. O maior exemplo disso é o Etinilestradiol (i.e Diane35 e etc), recomendação muito popular de endocrinologistas que não sabem o que estão fazendo e é conhecida por aumentar em até 20 vezes os riscos de trombose (Fonte: [Asscheman et al.](https://sci-hub.box/10.1046/j.1365-2265.1997.2601068.x))
+:::
 
 ## Como?
 

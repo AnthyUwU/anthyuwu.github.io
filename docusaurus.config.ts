@@ -89,19 +89,19 @@ const config: Config = {
           items: [
             {
               label: 'Oral',
-              to: '/medicamentos#oral'
+              to: '/Opções de TH transfeminina no Brasil/oral'
             },
             {
               label: 'Injetável',
-              to: '/medicamentos#perlutan'
+              to: '/Opções de TH transfeminina no Brasil/injetável'
             },
             {
               label: 'Gel',
-              to: '/medicamentos#gel'
+              to: '/Opções de TH transfeminina no Brasil/gel'
             },
             {
               label: 'Adesivo',
-              to: '/medicamentos#adesivo'
+              to: '/Opções de TH transfeminina no Brasil/adesivo'
             }
           ]
         },
