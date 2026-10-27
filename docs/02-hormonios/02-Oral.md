@@ -6,7 +6,7 @@ Alguns medicamentos disponíveis no Brasil para TH Oral:
 - Primogyna
 - Climene
 - Cicloprimogyna
-- 
+
 :::note
 Importante: A Cicloprimogyna contém dois tipos de comprimidos diferentes: Brancos e Vermelhos (vinho). Os comprimidos vermelhos contém [Levonorgestrel](https://pt.wikipedia.org/wiki/Levonorgestrel), que é um contraceptivo de emergência (Pílula do dia seguinte) muito forte para mulheres cis e não é interessante para TH. Se você decidir usar Cicloprimogyna, tome apenas os comprimidos brancos e jogue fora os vermelhos para evitar tomar medicações desnecessárias que podem ter efeitos colaterais negativos.
 :::
