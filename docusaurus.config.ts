@@ -89,19 +89,19 @@ const config: Config = {
           items: [
             {
               label: 'Oral',
-              to: '/Opções de TH transfeminina no Brasil/oral'
+              to: '/Opções%20de%20TH%20transfeminina%20no%20Brasil/oral'
             },
             {
               label: 'Injetável',
-              to: '/Opções de TH transfeminina no Brasil/injetável'
+              to: '/Opções%20de%20TH%20transfeminina%20no%20Brasil/injetável'
             },
             {
               label: 'Gel',
-              to: '/Opções de TH transfeminina no Brasil/gel'
+              to: '/Opções%20de%20TH%20transfeminina%20no%20Brasil/gel'
             },
             {
               label: 'Adesivo',
-              to: '/Opções de TH transfeminina no Brasil/adesivo'
+              to: '/Opções%20de%20TH%20transfeminina%20no%20Brasil/adesivo'
             }
           ]
         },
