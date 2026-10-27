@@ -53,6 +53,10 @@ const config: Config = {
   themeConfig: {
     image: 'img/WSite_Banner.png',
     metadata: [{name: 'twitter:card', content: 'summary_large_image'}],
+    tableOfContents: {
+      minHeadingLevel: 2,
+      maxHeadingLevel: 5,
+    },
     colorMode: {
       respectPrefersColorScheme: false,
       disableSwitch: true,
@@ -60,7 +64,8 @@ const config: Config = {
     },
     docs: {
       sidebar: {
-        hideable: false
+        hideable: true,
+        autoCollapseCategories: false,
       }
     },
     navbar: {
@@ -88,7 +93,7 @@ const config: Config = {
             },
             {
               label: 'Injetável',
-              to: '/medicamentos#injeção-im-intramuscular'
+              to: '/medicamentos#perlutan'
             },
             {
               label: 'Gel',
