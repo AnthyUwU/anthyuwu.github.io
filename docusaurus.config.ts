@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Guia de Terapia Hormonal.',
   tagline: 'TH',
-  favicon: 'img/HTHT.png',
+  favicon: 'static/img/favicon.ico',
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
@@ -51,7 +51,6 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/WSite_Banner.png',
     metadata: [{name: 'twitter:card', content: 'summary_large_image'}],
     tableOfContents: {
       minHeadingLevel: 2,
@@ -70,16 +69,6 @@ const config: Config = {
     },
     navbar: {
       title: 'Guia de Terapia Hormonal',
-      logo: {
-        alt: 'Logo',
-        src: 'img/HTHT.png',
-      },
-      items: [{
-        href: 'https://discord.com/invite/5CevJqYs3f',
-        position: 'right',
-        label: 'Nosso Discord'
-      },
-    ],
       hideOnScroll: true,
     },
     footer: {
@@ -106,21 +95,8 @@ const config: Config = {
           ]
         },
         {
-          title: "Comunidade",
-          items: [
-            {
-              label: "Server de Ajuda Trans",
-              href: "https://discord.com/invite/5CevJqYs3f"
-            }
-          ]
-        },
-        {
           title: "Criadores",
           items: [
-            {
-              label: "StarP",
-              href: 'https://x.com/StarPhod4'
-            },
             {
               label: "Anthy",
               href: 'https://x.com/AnthyHost'
@@ -133,7 +109,7 @@ const config: Config = {
         }
       ],
       // copyright: "Conteúdo feito com amor por Anthy e StarP. Site feito por Luna",
-      copyright: '<div>Conteúdo feito com amor por <a href="https://discord.gg/VjX6TXu4">Anthy</a> e <a href="https://discord.gg/FJXCGTGQ">StarP</a>. Site feito por <a href="https://discord.gg/RVmNwdt5">Luna</a></div>',
+      copyright: '<div>Conteúdo feito com amor por <a href="https://discord.gg/VjX6TXu4">Anthy</a>. Site feito por <a href="https://discord.gg/RVmNwdt5">Luna</a></div>',
     },
     prism: {
       theme: prismThemes.github,
